@@ -24,14 +24,22 @@
 
       <!-- マーカーの.pattファイルを読み込む -->
       <a-marker type="pattern" url="https://ryosuke-shi.github.io/ryosuke-shi.webar.github.io/webar/assets/pattern-urlQR.patt">
-        <!-- 3Dモデルを呼び出す -->
+        <!-- 3Dモデル（アニメーションだるま）を呼び出す -->
         <a-entity gltf-model="#daruma" 
 		animation__rotation="property: rotation; to: 0 0 360; loop: true; dur: 5000; dir: alternate; easing: easeInOutSine"
 		animation__position="property: position; to: 0 1 0; loop: true; dur: 2500; dir: alternate; easing: easeInOutSine">
 	</a-entity>
-	<!-- ランダムサンプルを呼び出す -->
-	<a-entity gltf-model="#daruma" random-position="min: -5 0 -5; max: 5 5 5" random-rotation random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
-	
+	<!-- ランダムだるまを10個呼び出す -->
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
+	<a-entity gltf-model="#daruma" random-position="min: -3 0 -3; max: 3 0 3" random-scale="min: 0.4 0.4 0,4; max: 2 2 2"></a-entity>
       </a-marker>
 
       <!-- カメラを追加 -->
