@@ -1,4 +1,4 @@
-var boxEl = document.querySelector(#daruma);
+var boxEl = document.querySelector('#daruma');
 
 // カーソルがぶつかったら拡大
 boxEl.addEventListener('mouseenter', function () {
